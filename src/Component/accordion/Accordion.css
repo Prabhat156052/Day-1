@@ -1,0 +1,25 @@
+.main-acc {
+  background-color:  rgb(156, 241, 213);
+  width: 50vw;
+  color: rgb(215, 23, 33);
+}
+.header-acc {
+  background-color: rgb(10, 135, 93);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-acc:hover{
+    background-color: rgb(9, 67, 48);
+}
+
+    .main-accordion{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    }
