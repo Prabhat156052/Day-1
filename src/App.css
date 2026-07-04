@@ -1,19 +1,8 @@
-body *{
+body * {
   margin: 1px;
-  
   text-align: center;
 }
 
-/* .App {
-  text-align: center;
-  background-color: rgb(68, 64, 64);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: auto;
-} */
-
-ul{
+ul {
   list-style: none;
 }
