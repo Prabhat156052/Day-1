@@ -19,7 +19,6 @@ function App() {
           <Route path="counter" element={<Counter />} />
           <Route path="accordion" element={<MainAccordion />} />
           <Route path="select-example" element={<SelectExample />} />
-          // <Route path="modal" element={<Modal/>}/>
         </Route>
       </Routes>
     </Router>
