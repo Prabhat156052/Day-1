@@ -1,19 +1,17 @@
+import React from "react";
 import "./Accordion.css";
-import React, { useState } from "react";
 
-function Accordion({ title, content }) {
-  const [isActive, setIsActive] = useState(false);
-  function handleClick() {
-    setIsActive((prevState) => !prevState);
-  }
+function Accordion({ title, content, isActive, onToggle }) {
   return (
-    <div className="main-acc">
-      <div className="header-acc" onClick={handleClick}>
-        <div>{title} </div>
-        <div>{isActive ? "-" : "+"}</div>
+    <div className="accordion">
+      <button className="accordion-header" onClick={onToggle}>
+        <span>{title}</span>
+        <span className="icon">{isActive ? "−" : "+"}</span>
+      </button>
+
+      <div className={`accordion-content ${isActive ? "active" : ""}`}>
+        <p>{content}</p>
       </div>
-      {isActive ? <p>{content}</p> : ""}
-      
     </div>
   );
 }
