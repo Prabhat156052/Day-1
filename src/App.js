@@ -7,7 +7,6 @@ import Home from "./Component/Home";
 import Counter from "./Component/counter/Counter";
 import MainAccordion from "./Component/accordion/mainAccordion";
 import SelectExample from "./Component/Select-example/SelectExample";
-import Modal from "./Component/Modal";
 
 function App() {
   return (
