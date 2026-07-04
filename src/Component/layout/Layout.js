@@ -36,11 +36,7 @@ function Layout() {
               Select Example
             </NavLink>
           </li>
-          // <li>
-          //   <NavLink to="/modal" className="link">
-          //     Modal
-          //   </NavLink>
-          // </li>
+          
         </ul>
       </nav>
 
